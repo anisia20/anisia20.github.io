@@ -6,6 +6,7 @@ sitemap 페이지
     - [ordershop](architect/cqrs/redislabs_odershop.md)
 - ### aws
     - [router53 join s3](architect/aws/s3_router53.md)
+    - [terraform ec2 sample](https://github.com/anisia20/terraform-sample)
 
 
 ## Develop
