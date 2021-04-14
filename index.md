@@ -16,7 +16,7 @@ sitemap 페이지
     - [k8s api](develop/go/k8sapi.md)
     - [k8s client api](develop/go/k8sclientrestapi.md)
 - ### springboot
-    - [개발환경](develop/go/setting.md)
+    - [개발환경](develop/springboot/redishttpsession.md)
 - ### git
 
 
