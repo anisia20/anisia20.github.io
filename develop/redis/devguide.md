@@ -3,7 +3,9 @@
 - Redis Command 참조 : http://redisgate.kr/redis/introduction/redis_intro.php
 
 - java example
-``` yaml
+---
+```yaml
+
 redis:
   mode: standalone  # standalone or sentinels or cluster
   master: mymaster
@@ -23,7 +25,8 @@ redis:
 
 ```
 
-``` java
+
+```java
 // set, get
 Dto indata = new Dto();
 indata.setKey("key");
@@ -46,7 +49,6 @@ indata.setKey("key");
 indata.setData("data");
 redisCmd.zPut("ZSET_NAME",indata,score);
 obj = redisCmd.zRange("ZSET_NAME","*문자열*");
-
 ```
 
 ```java
