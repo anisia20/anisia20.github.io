@@ -1,10 +1,5 @@
-```
 개발툴 : vscode
-
-command
-
- 
-
+```command
 
 go env | grep GOPATH
 GOPATH="/Users/mz01-josm/go"
@@ -12,6 +7,7 @@ mkdir -p $GOPATH/src/k8s.io
 cd $GOPATH/src/k8s.io
 git clone https://github.com/kubernetes/kubernetes
 cd kubernetes
+```
 make # makefile 위치
 vscode
 
@@ -26,4 +22,3 @@ vendor : 각 라이브러리 존재 위치
 빌드 방법
 
 ex ) make kubectl
-```

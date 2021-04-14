@@ -4,10 +4,10 @@ AWS Router53 ALB SSL
 	• 도메인 인증서 arn 확인
 2. ALB 세팅
 	• arn 세팅, subnet 세팅
-	• command
+``` command
 kubectl apply -f test-web-ingress-internal.yaml
 kubectl describe Ingress test-web-ingress-internal -n chicor-service
-	• yaml
+``` yaml
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -29,6 +29,8 @@ spec:
             backend:
               serviceName: web-service
               servicePort: 8084
+
+```
 3. Router53 세팅
 	• Application/Classic Load Balancer에 대한 별칭
 	• 대상은 자동 검색 목록중 선택
