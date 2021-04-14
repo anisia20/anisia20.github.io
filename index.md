@@ -1,8 +1,8 @@
 # Archi, DEV, log
 
 ## ArchiTect
-- ### Cqrs
-    - [ordershop](architect/cqrs/redislabs_odershop.md)
+### Cqrs
+#### [ordershop](architect/cqrs/redislabs_odershop.md)
 
 
 ## Develop
