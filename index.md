@@ -2,29 +2,20 @@
 
 ArchiTect
 ---
-<details markdown="1">
-<summary>CQRS</summary>
-</details>
+- Cqrs
 
 
 Develop
 ----
-<details markdown="1">
-<summary>REDIS</summary>
-
-- [develop guide](develop/redis/devguide.md)
+- Redis
+    - [develop guide](develop/redis/devguide.md)
 
 </details>
 
 OpenSource
 ---
-<details markdown="1">
-<summary>K8S</summary>
-
-- [command](opensource/k8s/command.md)
-
-</details>
-
+- K8S
+    - [command](opensource/k8s/command.md)
 
 Tools
 ---
