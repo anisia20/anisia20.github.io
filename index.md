@@ -10,6 +10,10 @@ Develop
 ----
 - Redis
     - [develop guide](develop/redis/devguide.md)
+- go
+    - [개발환경](develop/go/setting.md)
+    - [k8s api](develop/go/k8sapi.md)
+    - [k8s client api](develop/go/k8sclientrestapi.md)
 
 
 OpenSource
