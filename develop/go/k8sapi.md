@@ -1,5 +1,6 @@
-```
-getpodnum.go
+### getpodnum.go
+```go
+
 
 
 	package main
@@ -24,8 +25,10 @@ getpodnum.go
 	    pods, _ := clientset.CoreV1().Pods("").List(context.TODO(), metav1.ListOptions{})
 	    fmt.Printf("There are %d pods in the cluster\n", len(pods.Items))
 	}
+```
 
-command
+
+```command
 
 
 go mod init getpod
@@ -33,10 +36,8 @@ go get -u
 go get k8s.io/client-go@v0.19.0
 go run getpodnum.go
  
-
+```
 output
 
 
 There are 14 pods in the cluster
-
-```
