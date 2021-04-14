@@ -1,9 +1,8 @@
-- 개인 ArchiTect 기록 보관소
+# anisia20 architect log
 
-ArchiTect
----
-- Cqrs
-    - [ordershop](architect/cqrs/redislabs_odershop.md)
+## ArchiTect
+### Cqrs
+- [ordershop](architect/cqrs/redislabs_odershop.md)
 
 
 Develop
@@ -17,7 +16,7 @@ Develop
 - springboot
     - [개발환경](develop/go/setting.md)
 - git
-    
+
 
 OpenSource
 ---
