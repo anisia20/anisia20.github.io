@@ -1,4 +1,4 @@
-- 개인 ArcghiTect 기록 보관소
+- 개인 ArchiTect 기록 보관소
 
 ArchiTect
 ---
