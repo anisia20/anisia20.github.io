@@ -10,7 +10,6 @@ Develop
 - Redis
     - [develop guide](develop/redis/devguide.md)
 
-</details>
 
 OpenSource
 ---
