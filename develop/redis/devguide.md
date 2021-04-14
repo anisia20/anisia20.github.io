@@ -2,29 +2,13 @@
 
 - Redis Command 참조 : http://redisgate.kr/redis/introduction/redis_intro.php
 
-- java example
----
-```yaml
+- connect pool
+    - lettuce
 
-redis:
-  mode: standalone  # standalone or sentinels or cluster
-  master: mymaster
-  db_num: 1  # local only (spring.profile=local)
-  password :
-  standalone:
-      host: 127.0.0.1
-      port: 6379
-  sentinels:
-      host: 127.0.0.1, 127.0.0.2
-      port: 6379, 6371
-  cluster:
-      host: 127.0.0.1
-      port: 7000, 7001, 8001
-  timeout:
-      cmdSec : 10  #sec   
+-  mode
+    - standalone or sentinels or cluster
 
-```
-
+- sample
 
 ```java
 // set, get
@@ -54,34 +38,7 @@ obj = redisCmd.zRange("ZSET_NAME","*문자열*");
 ```java
 @Configuration
 public class RedisConfigForLettuce {
-@Value("${redis.mode}")
-	private String mode;
-@Value("${redis.master}")
-	private String master;
-	
-	@Value("${redis.db_num}")
-	private int dbNum;
-	
-	@Value("${redis.password}")
-	private String pwd;
-@Value("${redis.standalone.host}")
-	private String sdHost;
-@Value("${redis.standalone.port}")
-	private int sdPort;
-@Value("${redis.sentinels.host}")
-	private String[] stHost;
-@Value("${redis.sentinels.port}")
-	private int[] stPort;
-	
-	@Value("${redis.cluster.host}")
-	private String[] ctHost;
-@Value("${redis.cluster.port}")
-	private int[] ctPort;
-@Value("${redis.timeout.cmdSec}")
-	private int cmdSec;
-	
-	@Value("${spring.profiles.active}")
-	private String activeProfile;
+...
 	
 	@Primary
 	@Bean("connectionFactory")
@@ -165,27 +122,11 @@ template.setConnectionFactory(factory);
 ```
 
 ```java
-@Configuration
-public class RedisCmd {
-	
+...
 	@Autowired
 	@Qualifier("redisTemplateCmd")
 	private RedisTemplate<String, Object> template;
-public RedisConnectionFactory getConnectionFactory() {
-		return template.getConnectionFactory();
-	}
-public RedisConnection getConnection() {
-		try {
-			return template.getConnectionFactory().getConnection();
-		} catch(Exception e) {
-			log.error("getConnection error. e={}", e.getMessage());
-			return null;
-		}
-	}
-	
-	public String genKey(String redisKeyType, String subKey) {
-		return redisKeyType.replaceAll("\\{sub\\}", subKey);
-	}
+
 public boolean set(String key, Object obj) {
 		return set(key, obj, -1);
 	}
