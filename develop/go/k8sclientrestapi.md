@@ -1,4 +1,4 @@
-```
+
 gin framework 사용
 
 https://github.com/anisia20/k8s-client.git - Connect to preview 
@@ -7,7 +7,7 @@ getpods local TEST
 
 http://localhost:3000/api/getpods
 
-command
+```command
 
 
 go mod init getpods
