@@ -1,8 +1,8 @@
-# anisia20 architect log
+# architect log
 
 ## ArchiTect
 ### Cqrs
-- [ordershop](architect/cqrs/redislabs_odershop.md)
+[ordershop](architect/cqrs/redislabs_odershop.md)
 
 
 Develop
