@@ -4,6 +4,8 @@ sitemap 페이지
 ## ArchiTect
 - ### Cqrs
     - [ordershop](architect/cqrs/redislabs_odershop.md)
+- ### aws
+    - [router53 join s3](architect/aws/s3_router53.md)
 
 
 ## Develop
