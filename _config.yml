@@ -6,4 +6,9 @@ relative_links:
 include:
   - index.md
  
+<<<<<<< HEAD
 theme: jekyll-theme-midnight
+=======
+
+theme: jekyll-theme-architect
+>>>>>>> 1a639053200a0ae2d5b6360fef6d22c28fa2f261
