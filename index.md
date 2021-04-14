@@ -3,6 +3,7 @@
 ArchiTect
 ---
 - Cqrs
+    - [ordershop](architect/cqrs/redislabs_odershop.md)
 
 
 Develop
