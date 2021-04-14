@@ -8,4 +8,4 @@ include:
   - opensource/k8s/command.md
  
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
