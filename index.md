@@ -22,6 +22,7 @@ sitemap 페이지
 
 
 ## OpenSource
+
 - ### K8S
     - [command](opensource/k8s/command.md)
     - [alb ingress](opensource/k8s/ingress.md)
@@ -40,7 +41,8 @@ sitemap 페이지
         on-premise 환경에 lb 역활
         - [install](opensource/k8s/metallb/install.md) 
 
-
+- ### argocd
+    - [aws_install](opensource/argocd/aws_install.md)
 
     
 - ### EFK
