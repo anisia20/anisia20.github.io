@@ -17,7 +17,7 @@ sitemap 페이지
     - [k8s api](develop/go/k8sapi.md)
     - [k8s client api](develop/go/k8sclientrestapi.md)
 - ### springboot
-    - [개발환경](develop/springboot/redishttpsession.md)
+    - [Redis Http Session](develop/springboot/redishttpsession.md)
 - ### git
 
 
@@ -25,6 +25,10 @@ sitemap 페이지
 - ### K8S
     - [command](opensource/k8s/command.md)
     - [alb ingress](opensource/k8s/ingress.md)
+
+- ### istio
+    - [install](opensource/istio/install.md)  
+     
 - ### EFK
 
 
