@@ -30,6 +30,7 @@ sitemap 페이지
     - [install](opensource/istio/install.md)  
     - [ssl](opensource/istio/ssl.md) 
     - [ingressgw](opensource/istio/ingressgw.md) 
+    - [service](opensource/istio/service.md) 
      
 - ### EFK
 
