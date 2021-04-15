@@ -26,14 +26,16 @@ sitemap 페이지
     - [command](opensource/k8s/command.md)
     - [alb ingress](opensource/k8s/ingress.md)
     - #### ingress    
-        - [contour_ingress](opensource/ingress/contour_ingress.md)  
-        - [haproxy_ingress](opensource/ingress/haproxy_ingress.md) 
-        - [contour_ingress](opensource/ingress/nginx_ingress.md) 
+        - [contour_ingress](opensource/k8s/ingress/contour_ingress.md)  
+        - [haproxy_ingress](opensource/k8s/ingress/haproxy_ingress.md) 
+        - [contour_ingress](opensource/k8s/ingress/nginx_ingress.md) 
     - #### istio
-        - [install](opensource/istio/install.md)  
-        - [ssl](opensource/istio/ssl.md) 
-        - [ingressgw](opensource/istio/ingressgw.md) 
-        - [service](opensource/istio/service.md) 
+        - [install](opensource/k8s/istio/install.md)  
+        - [ssl](opensource/k8s/istio/ssl.md) 
+        - [ingressgw](opensource/k8s/istio/ingressgw.md) 
+        - [service](opensource/k8s/istio/service.md) 
+    - #### metallb
+        - [install](opensource/k8s/metallb/install.md) 
 
 
 
