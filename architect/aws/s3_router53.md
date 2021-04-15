@@ -3,11 +3,11 @@
 • 버킷 만들기 default 생성 public 환경으 별도 액세스 권한 필요
 • aws cli iam 액세스, 엑세스 비밀키 세팅
 • aws s3 cp 파일위치 s3://test
-• chicor 구성 : 새벽 1시 scouter log backup
+• domain 구성 : 새벽 1시 scouter log backup
 
 ## Router53
 ### domain.co.kr/파일명
-    • 도메인 : scouter.stg.chicor.co.kr
+    • 도메인 :domain.co.kr
     • 타입 : S3 웹 사이트 엔드포인트에 대한 별칭
     • 리전 : 아시아태평양 서울
     • 엔드포인트 : s3-website.ap-northeast-2.amazonaws.com.
@@ -56,7 +56,7 @@ CORS
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 <CORSRule>
 <AllowedOrigin>*</AllowedOrigin>
-<AllowedOrigin>http://m.stg.chicor.co.kr</AllowedOrigin>
+<AllowedOrigin>http://domain.co.kr</AllowedOrigin>
 <AllowedMethod>POST</AllowedMethod>
 <AllowedMethod>GET</AllowedMethod>
 <AllowedMethod>PUT</AllowedMethod>
