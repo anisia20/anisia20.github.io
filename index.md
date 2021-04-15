@@ -25,6 +25,8 @@ sitemap 페이지
 - ### K8S
     - [command](opensource/k8s/command.md)
     - [alb ingress](opensource/k8s/ingress.md)
+    - #### onpremise
+        - [vbox](opensource/k8s/onpremise/vbox.md)    
     - #### ingress    
         - [contour_ingress](opensource/k8s/ingress/contour_ingress.md)  
         - [haproxy_ingress](opensource/k8s/ingress/haproxy_ingress.md) 
@@ -35,6 +37,7 @@ sitemap 페이지
         - [ingressgw](opensource/k8s/istio/ingressgw.md) 
         - [service](opensource/k8s/istio/service.md) 
     - #### metallb
+        on-premise 환경에 lb 역활
         - [install](opensource/k8s/metallb/install.md) 
 
 
