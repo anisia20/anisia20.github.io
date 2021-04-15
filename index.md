@@ -28,6 +28,8 @@ sitemap 페이지
 
 - ### istio
     - [install](opensource/istio/install.md)  
+    - [ssl](opensource/istio/ssl.md) 
+    - [ingressgw](opensource/istio/ingressgw.md) 
      
 - ### EFK
 
