@@ -41,7 +41,7 @@ spec:
     - "*"
 
 ```
-- 파드 추가 후 VirtualService 만 추가해 주면 된다.
+###### 파드 추가 후 VirtualService 만 추가해 주면 된다.
 ```yaml
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
