@@ -8,3 +8,10 @@
     - kubectl scale --replicas=0 deployment/deploy
 * pod 복원 (replicas = 2)
     - kubectl scale --replicas=2 deployment/deploy
+- hpa
+    * kubectl autoscale deployment deployment --cpu-percent=60 --min=1 --max=2 
+    * kubectl delete horizontalpodautoscaler deployment
+    * kubectl get hpa 
+
+    * kubectl autoscale deployment deployment --cpu-percent=60 --min=1 --max=2 
+    * kubectl delete horizontalpodautoscaler deployment 
