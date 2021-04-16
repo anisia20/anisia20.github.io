@@ -41,7 +41,7 @@ spec:
     spec:
       serviceAccountName: zipkin-ac
       containers:
-      - name: chicor-zipkin
+      - name: zipkin
         image: openzipkin/zipkin-slim:latest
         #command: ["/bin/bash","-c"]
         #args: ["start.sh"]
