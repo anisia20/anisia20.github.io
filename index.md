@@ -95,6 +95,7 @@
         - [docker](opensource/apm/efk/docker.md)
         - [duplicate_s3](opensource/apm/efk/duplicate_s3.md)
         - [eks migrate](opensource/apm/efk/eks_migrate.md)
+        - [fluentd custom](opensource/apm/efk/fluentd_custom.md)
     - #### skywalking
         - [build](opensource/apm/skywalking/build.md)
         - [agent](opensource/apm/skywalking/agent.md)
