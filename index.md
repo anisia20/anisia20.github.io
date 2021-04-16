@@ -1,5 +1,4 @@
- 
- # Archi, DEV, log
+# Archi, DEV, log
     개인적인 기록 보관소
 
 ## ArchiTect
@@ -53,7 +52,7 @@
         - [aws install](opensource/k8s/minikube/aws_install.md) 
     - #### registry
         - [nexus3](opensource/registry/nexus3.md)
-        
+
 - ### cicd
     - #### argocd
         - [aws_install](opensource/cicd/argocd/aws_install.md)
