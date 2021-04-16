@@ -47,8 +47,8 @@
 		    private ApiInfo apiInfo() {
 				return new ApiInfoBuilder()
 						.title("SMMS API")
-						.description("신한금융그룹 문자발송 모니터링 시스템 Agent API")
-						.license("신한금융그룹")
+						.description("신모니터링 시스템 Agent API")
+						.license("123")
 						.version("v1")
 						.build();
 		    }
