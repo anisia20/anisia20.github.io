@@ -26,6 +26,7 @@ sitemap 페이지
 - ### K8S
     - [command](opensource/k8s/command.md)
     - [alb ingress](opensource/k8s/ingress.md)
+    - [timezone](opensource/k8s/timezone.md)
     - #### onpremise
         - [vbox](opensource/k8s/onpremise/vbox.md)    
         - [install](opensource/k8s/onpremise/install.md)
