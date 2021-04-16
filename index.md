@@ -32,6 +32,10 @@
 - ### groovy
     - [ngrinder sample](develop/groovy/ngrinder.md)
 
+- ### python
+    - [setting](develop/python/setting.md)
+    - [setting](develop/python/cralwing.md)
+
 - ### go
     - [개발환경](develop/go/setting.md)
     - [k8s api](develop/go/k8sapi.md)
