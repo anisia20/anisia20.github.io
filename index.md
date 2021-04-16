@@ -34,7 +34,7 @@
 
 - ### python
     - [setting](develop/python/setting.md)
-    - [setting](develop/python/cralwing.md)
+    - [cralwing](develop/python/cralwing.md)
 
 - ### go
     - [개발환경](develop/go/setting.md)
