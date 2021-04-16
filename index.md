@@ -6,6 +6,7 @@
     - [ordershop](architect/cqrs/redislabs_odershop.md)
 - ### aws
     - [router53 join s3](architect/aws/s3_router53.md)
+    - [eks autoscale](architect/aws/autoscale.md)
     - [terraform ec2 sample](https://github.com/anisia20/terraform-sample)
     - [AGIC](https://aws.amazon.com/ko/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
 
@@ -20,6 +21,7 @@
 - ### springboot
     - [Redis Http Session](develop/springboot/redishttpsession.md)
     - [csv to redis sample](https://github.com/anisia20/staticstic-csv-redis)
+    - [aws s3](develop/springboot/aws_s3.md)
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
 
