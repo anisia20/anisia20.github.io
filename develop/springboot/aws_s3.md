@@ -1,8 +1,8 @@
 ## 사전 준비사항
-	○ IAM accecekey 발급 (S3 권한)
+### IAM accecekey 발급 (S3 권한)
 ## 결과화면
 ## 소스
-	○ application.yaml
+### application.yaml
 ```yaml
 aws:
   access-key: '123'
@@ -10,13 +10,13 @@ aws:
   s3:
     bucket: 'mv-bucket'
 ```
-	○ build.gradle
+### build.gradle
 ```
 	implementation platform('software.amazon.awssdk:bom:2.15.33')
 	implementation 'software.amazon.awssdk:kinesis'
 	implementation 'software.amazon.awssdk:s3'
 ```    
-	○ AwsConfig.java
+### AwsConfig.java
 ```java    
 @Configuration
 public class AWSConfig {
@@ -57,7 +57,7 @@ public class AWSConfig {
 
 }
 ```
-    • fileupload.html
+### fileupload.html
 ```html
 <script src="js/vue/vue.js"></script>
 <script src="js/vue/vue-friendly-iframe.js"></script>
@@ -108,7 +108,7 @@ const app = new Vue({
 
 </script>
 ```
-    • ProductController.java
+### ProductController.java
 ```java
 	@PostMapping("/fileupload")
 	public ResponseEntity fileupload(
@@ -125,7 +125,7 @@ const app = new Vue({
 		
 	}
 ```
-    • ProductService.java
+### ProductService.java
 ```java
 	public int file2S3(Map<String, MultipartFile> files) {
 		Iterator itr = files.values().iterator();
