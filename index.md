@@ -35,6 +35,7 @@
         - [master](opensource/k8s/onpremise/master.md)
         - [worker](opensource/k8s/onpremise/worker.md)
         - [registry](opensource/k8s/onpremise/registry.md)
+        - [deploy](opensource/k8s/onpremise/deploy.md)
     - #### ingress    
         - [contour_ingress](opensource/k8s/ingress/contour_ingress.md)  
         - [haproxy_ingress](opensource/k8s/ingress/haproxy_ingress.md) 
@@ -61,9 +62,12 @@
     - #### newrelic
         - [agent](opensource/apm/newrelic/agent.md)
         - [sql](opensource/apm/newrelic/sql.md)
+    - #### efk
+        - [sql](opensource/apm//sql.md)
 
+- ### elasticsearch
+    - [command](opensource/elasticsearch//command.md)
     
-- ### EFK
 
 
 ## Tools
