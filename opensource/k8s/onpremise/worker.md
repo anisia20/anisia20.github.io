@@ -1,4 +1,4 @@
-kubeadm join 192.168.56.102:6443 --token uz2e14.y2087yqhc7890cj4     --discovery-token-ca-cert-hash sha256:34ada19291e8ac165256cd09196c5eda360503853ddf3160428c5dc7eb023018
+kubeadm join 192.168.56.102:6443 --token uz2e14.y2087yqhc7890cj4     --discovery-token-ca-cert-hash sha256:...
 
 #토큰
 $ kubeadm token list

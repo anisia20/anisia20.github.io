@@ -29,11 +29,13 @@
     - [alb ingress](opensource/k8s/ingress.md)
     - [timezone](opensource/k8s/timezone.md)
     - [api client](opensource/k8s/apiclient.md)
+    - [probe](opensource/k8s/probe.md)
     - #### onpremise
         - [vbox](opensource/k8s/onpremise/vbox.md)    
         - [install](opensource/k8s/onpremise/install.md)
         - [master](opensource/k8s/onpremise/master.md)
         - [worker](opensource/k8s/onpremise/worker.md)
+        - [registry](opensource/k8s/onpremise/registry.md)
     - #### ingress    
         - [contour_ingress](opensource/k8s/ingress/contour_ingress.md)  
         - [haproxy_ingress](opensource/k8s/ingress/haproxy_ingress.md) 
@@ -49,6 +51,9 @@
     
     - #### minikbe
         - [aws install](opensource/k8s/minikube/aws_install.md) 
+    - #### registry
+        - [nexus3](opensource/registry/nexus3.md)
+        
 - ### cicd
     - #### argocd
         - [aws_install](opensource/cicd/argocd/aws_install.md)
