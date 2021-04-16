@@ -67,3 +67,6 @@ spec:
               serviceName: argocd-server
               servicePort: 443
 ```
+
+#### project 추가
+    argocd app create cs --repo http://[giturl].git --path yaml --revision develop --dest-namespace default --grpc-web --dest-server https://...ap-northeast-2.eks.amazonaws.com --directory-recurse
