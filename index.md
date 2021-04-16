@@ -52,6 +52,7 @@
     - [timezone](opensource/k8s/timezone.md)
     - [api client](opensource/k8s/apiclient.md)
     - [probe](opensource/k8s/probe.md)
+    - [lifecycle](opensource/k8s/lifecycle.md)
     - #### onpremise
         - [vbox](opensource/k8s/onpremise/vbox.md)    
         - [install](opensource/k8s/onpremise/install.md)
