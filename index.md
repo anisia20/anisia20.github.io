@@ -59,6 +59,10 @@
 - ### cicd
     - #### argocd
         - [aws_install](opensource/cicd/argocd/aws_install.md)
+    - #### jenkinsx
+        - [minikube](opensource/cicd/jenkinsx/minikube.md)
+        - [ubuntu](opensource/cicd/jenkinsx/ubuntu.md)
+        - [command](opensource/cicd/jenkinsx/command.md)
 
 - ### apm
     - #### newrelic
