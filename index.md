@@ -64,4 +64,4 @@
 
 ## Tools
 - ### helm
-    - [helm](opensource/tools/helm.md)
+    - [helm](tools/helm.md)
