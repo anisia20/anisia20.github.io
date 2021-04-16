@@ -19,6 +19,7 @@
 - ### springboot
     - [Redis Http Session](develop/springboot/redishttpsession.md)
 - ### git
+    - [gitlab_install](develop/git/gitlab_install.md)
 
 
 ## OpenSource
