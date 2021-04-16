@@ -17,17 +17,20 @@ indata.setKey("key");
 indata.setData("data");
 redisCmd.set("COMMON", indata);
 Dto obj = (Dto) redisCmd.get("COMMON");
+
 // list push, pop
 indata.setKey("key");
 indata.setData("data");
 redisCmd.push("QUEUE_NAME",indata);
 obj = redisCmd.pop("QUEUE_NAME");
+
 // hash set, get
 indata.setKey("key");
 indata.setData("data");
 redisCmd.hset("HASH_NAME","FIELD_NAME",indata);
 obj = redisCmd.hget("HASH_NAME","FIELD_NAME");
-// zset set, get
+
+// zset(sorted) set, get
 int score = 1;
 indata.setKey("key");
 indata.setData("data");

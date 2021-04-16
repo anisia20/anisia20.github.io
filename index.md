@@ -11,13 +11,14 @@
 
 ## Develop
 - ### redis
-    - [develop guide](develop/redis/devguide.md)
+    - [develop guide java](develop/redis/devguide.md)
 - ### go
     - [개발환경](develop/go/setting.md)
     - [k8s api](develop/go/k8sapi.md)
     - [k8s client api](develop/go/k8sclientrestapi.md)
 - ### springboot
     - [Redis Http Session](develop/springboot/redishttpsession.md)
+    - [csv to redis sample](https://github.com/anisia20/staticstic-csv-redis)
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
 
