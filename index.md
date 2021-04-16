@@ -65,7 +65,12 @@
         - [agent](opensource/apm/newrelic/agent.md)
         - [sql](opensource/apm/newrelic/sql.md)
     - #### efk
-        - [sql](opensource/apm//sql.md)
+        - [docker](opensource/apm/efk/docker.md)
+        - [duplicate_s3](opensource/apm/efk/duplicate_s3.md)
+    - #### skywalking
+        - [build](opensource/apm/skywalking/build.md)
+    - #### pinpoint
+        - [exam](opensource/apm/pinpoint/server_agent.md)
 
 - ### elasticsearch
     - [command](opensource/elasticsearch//command.md)
