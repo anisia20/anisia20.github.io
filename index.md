@@ -14,10 +14,6 @@
 ## Develop
 - ### redis
     - [develop guide java](develop/redis/devguide.md)
-- ### go
-    - [개발환경](develop/go/setting.md)
-    - [k8s api](develop/go/k8sapi.md)
-    - [k8s client api](develop/go/k8sclientrestapi.md)
 - ### springboot
     - [Redis Http Session](develop/springboot/redishttpsession.md)
     - [csv to redis sample](https://github.com/anisia20/staticstic-csv-redis)
@@ -30,6 +26,8 @@
     - [x-forward-for](develop/springboot/xforwardfor.md)
     - [exclude webcecurity ](develop/springboot/exclud_websec.md)
     - [lombok validate](develop/springboot/lombok_validate.md)
+    - [swagger](develop/springboot/swagger.md)
+    - [frontend profiles](develop/springboot/webpack_node_profiles.md)
 
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
