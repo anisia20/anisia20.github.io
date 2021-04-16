@@ -23,6 +23,9 @@
     - [csv to redis sample](https://github.com/anisia20/staticstic-csv-redis)
     - [aws s3](develop/springboot/aws_s3.md)
     - [aws mediaconvert](develop/springboot/aws_mediaconvert.md)
+    - [extanal yaml](develop/springboot/extanal_yaml.md)
+    - [Sb2 RFC 3986](develop/springboot/sbrfc.md)
+    - [h2db](develop/springboot/h2db.md)
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
 
