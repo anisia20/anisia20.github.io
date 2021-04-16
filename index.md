@@ -28,6 +28,7 @@
     - [lombok validate](develop/springboot/lombok_validate.md)
     - [swagger](develop/springboot/swagger.md)
     - [frontend profiles](develop/springboot/webpack_node_profiles.md)
+    - [kafka](develop/springboot/kafka.md)
 
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
@@ -91,7 +92,10 @@
         - [guide](opensource/apm/zipkin/guide.md)
 
 - ### elasticsearch
-    - [command](opensource/elasticsearch//command.md)
+    - [command](opensource/elasticsearch/command.md)
+
+- ### kafka
+    - [docker compose cluster](opensource/kafka/docker.md)
     
 
 
