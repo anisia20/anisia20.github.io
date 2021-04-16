@@ -7,6 +7,7 @@
 - ### aws
     - [router53 join s3](architect/aws/s3_router53.md)
     - [terraform ec2 sample](https://github.com/anisia20/terraform-sample)
+    - [AGIC](https://aws.amazon.com/ko/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
 
 
 ## Develop
@@ -74,6 +75,7 @@
         - [eks migrate](opensource/apm/efk/eks_migrate.md)
     - #### skywalking
         - [build](opensource/apm/skywalking/build.md)
+        - [agent](opensource/apm/skywalking/agent.md)
     - #### pinpoint
         - [exam](opensource/apm/pinpoint/server_agent.md)
 
