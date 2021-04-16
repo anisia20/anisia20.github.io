@@ -56,7 +56,8 @@
         - [aws install](opensource/k8s/minikube/aws_install.md) 
     - #### registry
         - [nexus3](opensource/registry/nexus3.md)
-
+    - #### rocketchat
+        - [docker](opensource/rocketchat/docker.md)
 - ### cicd
     - #### argocd
         - [aws_install](opensource/cicd/argocd/aws_install.md)
@@ -78,6 +79,8 @@
         - [agent](opensource/apm/skywalking/agent.md)
     - #### pinpoint
         - [exam](opensource/apm/pinpoint/server_agent.md)
+    - #### zipkin
+        - [guide](opensource/apm/zipkin/guide.md)
 
 - ### elasticsearch
     - [command](opensource/elasticsearch//command.md)
