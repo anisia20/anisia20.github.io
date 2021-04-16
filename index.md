@@ -1,5 +1,5 @@
-# Archi, DEV, log
-sitemap 페이지
+ # Archi, DEV, log
+    개인적인 기록 보관소
 
 ## ArchiTect
 - ### Cqrs
@@ -27,6 +27,7 @@ sitemap 페이지
     - [command](opensource/k8s/command.md)
     - [alb ingress](opensource/k8s/ingress.md)
     - [timezone](opensource/k8s/timezone.md)
+    - [api client](opensource/k8s/apiclient.md)
     - #### onpremise
         - [vbox](opensource/k8s/onpremise/vbox.md)    
         - [install](opensource/k8s/onpremise/install.md)
@@ -44,6 +45,9 @@ sitemap 페이지
     - #### metallb
         on-premise 환경에 lb 역활
         - [install](opensource/k8s/metallb/install.md) 
+    
+    - #### minikbe
+        - [aws install](opensource/k8s/minikube/aws_install.md) 
 - ### cicd
     - #### argocd
         - [aws_install](opensource/cicd/argocd/aws_install.md)
@@ -58,3 +62,5 @@ sitemap 페이지
 
 
 ## Tools
+- ### helm
+    - [helm](opensource/tools/helm.md)

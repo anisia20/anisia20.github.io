@@ -19,3 +19,7 @@
 
     * kubectl autoscale deployment deployment --cpu-percent=60 --min=1 --max=2 
     * kubectl delete horizontalpodautoscaler deployment 
+* container 접근
+    - kubectl -n kube-system exec -it <pod-in-kube-system> sh
+* log
+    - kubectl logs -f pod/api-deployment --all-containers 
