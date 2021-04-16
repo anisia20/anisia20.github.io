@@ -29,7 +29,7 @@ spec:
         effect: NoSchedule
       containers:
       - name: fluentd
-        image: 392812150308.dkr.ecr.ap-northeast-2.amazonaws.com/chicor_dev_fluentd:latest
+        image: ...dev_fluentd:latest
         env:
           - name:  FLUENT_FOWARD_HOST
             value: "10.222.16.46"
