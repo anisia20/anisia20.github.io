@@ -67,6 +67,7 @@
     - #### efk
         - [docker](opensource/apm/efk/docker.md)
         - [duplicate_s3](opensource/apm/efk/duplicate_s3.md)
+        - [eks migrate](opensource/apm/efk/eks_migrate.md)
     - #### skywalking
         - [build](opensource/apm/skywalking/build.md)
     - #### pinpoint
