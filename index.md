@@ -28,6 +28,7 @@
     - [h2db](develop/springboot/h2db.md)
     - [Websecurity, 302, 200 JWTtoken](https://octoperf.com/blog/2018/03/08/securing-rest-api-spring-security/) webcecurity 는 기본이 302가 리턴됨, rest는 200 관련되서 세팅 사항을 참조
     - [x-forward-for](develop/springboot/xforwardfor.md)
+    - [exclude webcecurity ](develop/springboot/exclud_websec.md)
 
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
