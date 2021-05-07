@@ -15,6 +15,7 @@
 - ### redis
     - [develop guide java](develop/redis/devguide.md)
 - ### springboot
+    - [AWS aurora](develop/springboot/aws_aurora_db.md)
     - [Webflux Swagger3](develop/springboot/webflux_swagger3.md)
     - [Redis Http Session](develop/springboot/redishttpsession.md)
     - [csv to redis sample](https://github.com/anisia20/staticstic-csv-redis)
