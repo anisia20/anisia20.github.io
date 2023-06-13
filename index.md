@@ -6,10 +6,13 @@
 
 <summary>
 
+<div markdown="0">
 ![](20230613155822.png) ![](20230613155912.png)
+</div>
 
 </summary>
 
+<div markdown="1">
 - ### Cqrs
     - [ordershop](architect/cqrs/redislabs_odershop.md)
 - ### aws
@@ -17,6 +20,7 @@
     - [eks autoscale](architect/aws/autoscale.md)
     - [terraform sample](https://github.com/anisia20/terraform-sample)
     - [AGIC](https://aws.amazon.com/ko/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
+</div>
 
 </details>
 
