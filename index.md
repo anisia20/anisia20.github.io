@@ -4,10 +4,9 @@
 ## ArchiTect
 <details>
 <summary>
-<blockquote>
 
 ![](20230613155822.png) ![](20230613155912.png)
-</blockquote>
+
 </summary>
 
 - ### Cqrs
@@ -17,6 +16,7 @@
     - [eks autoscale](architect/aws/autoscale.md)
     - [terraform sample](https://github.com/anisia20/terraform-sample)
     - [AGIC](https://aws.amazon.com/ko/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
+
 </details>
 
 
