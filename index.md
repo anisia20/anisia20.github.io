@@ -71,6 +71,8 @@
 
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
+
+</div>
 </details>
 
 ## OpenSource
