@@ -2,6 +2,12 @@
     개인적인 기록 보관소
 
 ## ArchiTect
+<details>
+<summary>
+
+![](20230613155822.png) ![](20230613155912.png)
+</summary>
+
 - ### Cqrs
     - [ordershop](architect/cqrs/redislabs_odershop.md)
 - ### aws
@@ -9,9 +15,16 @@
     - [eks autoscale](architect/aws/autoscale.md)
     - [terraform sample](https://github.com/anisia20/terraform-sample)
     - [AGIC](https://aws.amazon.com/ko/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/)
+</details>
 
 
 ## Develop
+<details>
+<summary>
+
+![](20230613155529.png) ![](20230613155457.png) ![](20230613155621.png) ![](20230613155703.png) ![](20230613155744.png) ![](20230613155953.png)
+</summary>
+
 - ### redis
     - [develop guide java](develop/redis/devguide.md)
 - ### springboot
@@ -45,9 +58,15 @@
 
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
-
+</details>
 
 ## OpenSource
+<details>
+<summary>
+
+![](20230613160119.png) ![](20230613161145.png) ![](20230613161207.png) ![](20230613161256.png) ![](20230613161347.png) ![](20230613161425.png) ![](20230613161501.png) ![](20230613161523.png) ![](20230613161631.png) ![](20230613161708.png) ![](20230613161737.png) ![](20230613161835.png) ![](20230613161905.png) ![](20230613161940.png) ![](20230613162000.png) ![](20230613162029.png) ![](20230613162051.png)
+</summary>
+
 - ### K8S
     - [command](opensource/k8s/command.md)
     - [alb ingress](opensource/k8s/ingress.md)
@@ -117,9 +136,17 @@
 
 - ### keycloak
     - [keycloak](opensource/keycloak/keycloak.md)
+- ### hasura
+    - [hasura](opensource/hasura/hasura.md)
     
-
+</details>
 
 ## Tools
+<details>
+<summary>
+
+![](20230613162149.png)
+</summary>
 - ### helm
     - [helm](tools/helm.md)
+</details>
