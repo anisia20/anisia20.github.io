@@ -3,6 +3,7 @@
 
 ## ArchiTect
 <details>
+
 <summary>
 
 ![](20230613155822.png) ![](20230613155912.png)
