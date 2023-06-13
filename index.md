@@ -2,11 +2,8 @@
     개인적인 기록 보관소
 
 ## ArchiTect
-<details>
-<summary>
-
 ![](20230613155822.png) ![](20230613155912.png)
-</summary>
+<details>
 
 - ### Cqrs
     - [ordershop](architect/cqrs/redislabs_odershop.md)
@@ -19,11 +16,9 @@
 
 
 ## Develop
-<details>
-<summary>
-
 ![](20230613162542.png) ![](20230613155529.png) ![](20230613155457.png) ![](20230613155621.png) ![](20230613155703.png) ![](20230613155744.png) ![](20230613155953.png)
-</summary>
+
+<details>
 
 - ### Quarkus
     - [Quarkus](https://velog.io/@anisia20?tag=Quarkus)
@@ -63,11 +58,8 @@
 </details>
 
 ## OpenSource
-<details>
-<summary>
-
 ![](20230613160119.png) ![](20230613161145.png) ![](20230613161207.png) ![](20230613161256.png) ![](20230613161347.png) ![](20230613161425.png) ![](20230613161501.png) ![](20230613161523.png) ![](20230613161631.png) ![](20230613161708.png) ![](20230613161737.png) ![](20230613161835.png) ![](20230613161905.png) ![](20230613161940.png) ![](20230613162000.png) ![](20230613162029.png) ![](20230613162051.png) ![](20230613162733.png)
-</summary>
+<details>
 
 - ### K8S
     - [command](opensource/k8s/command.md)
@@ -148,11 +140,9 @@
 </details>
 
 ## Tools
-<details>
-<summary>
-
 ![](20230613162149.png)
-</summary>
+<details>
+
 - ### helm
     - [helm](tools/helm.md)
 </details>
