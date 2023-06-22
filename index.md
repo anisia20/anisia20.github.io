@@ -163,6 +163,9 @@
 
 - ### hasura
     - [hasura](opensource/hasura/hasura.md)
+
+- ### jeager
+    - [jeager](opensource/jeager/jeager.md)
     
 
 </div>
