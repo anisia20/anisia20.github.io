@@ -29,7 +29,7 @@
 <summary> 상세보기
 <div markdown="1">
 
-![](20230613162542.png) ![](20230613155529.png) ![](20230613155457.png) ![](20230613155621.png) ![](20230613155703.png) ![](20230613155744.png) ![](20230613155953.png)
+![](20230613162542.png) ![](20230613155529.png) ![](20230613155457.png) ![](20230613155621.png) ![](20230613155703.png) ![](20230613155744.png) ![](20230613155953.png) ![](image.png)
 
 </div>
 </summary>
@@ -71,6 +71,9 @@
 
 - ### git
     - [gitlab_install](develop/git/gitlab_install.md)
+
+- ### php
+    - [wordpress short code](develop/php/wordpress_function.md)
 
 </div>
 </details>
