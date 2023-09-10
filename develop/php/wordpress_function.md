@@ -48,3 +48,42 @@ add_shortcode('take_home_pay', 'calculate_take_home_pay');
 ```
 [take_home_pay salary="50000000" num_children="2" num_dependents="1"]
 ```
+
+위코드 폼 형식
+```php
+function calculate_take_home_pay_form($atts) {
+    // Check if form is submitted and calculate take home pay
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['salary']) && isset($_POST['num_children']) && isset($_POST['num_dependents'])) {
+        $salary = intval($_POST['salary']);
+        $num_children = intval($_POST['num_children']);
+        $num_dependents = intval($_POST['num_dependents']);
+
+        // Calculate deductions
+        // The rest of the calculation code is same as before.
+        // ...
+        // ...
+
+        $output = "Net Salary: " . $net_salary;
+    } else {
+        $output = '
+        <form action="' . esc_url($_SERVER['REQUEST_URI']) . '" method="post">
+            <label for="salary">Salary: </label>
+            <input type="number" id="salary" name="salary">
+            <label for="num_children">Number of Children: </label>
+            <input type="number" id="num_children" name="num_children">
+            <label for="num_dependents">Number of Dependents: </label>
+            <input type="number" id="num_dependents" name="num_dependents">
+            <input type="submit" value="Calculate">
+        </form>';
+    }
+
+    return $output;
+}
+
+add_shortcode('take_home_pay_form', 'calculate_take_home_pay_form');
+
+```
+작성
+```
+[take_home_pay_form]
+```

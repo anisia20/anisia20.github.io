@@ -57,6 +57,7 @@
     - [swagger](develop/springboot/swagger.md)
     - [frontend profiles](develop/springboot/webpack_node_profiles.md)
     - [kafka](develop/springboot/kafka.md)
+    - [Array sort 알고리즘](develop/springboot/array_sort.md)
 - ### groovy
     - [ngrinder sample](develop/groovy/ngrinder.md)
 
