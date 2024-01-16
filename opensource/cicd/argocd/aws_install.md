@@ -14,6 +14,7 @@
 
     route53 -> alb 세팅
     argocd login --grpc-web argocd.co.kr
+    # argocd login --grpc-web k8s-argocd-argocdin-123-123.ap-northeast-2.elb.amazonaws.com
     name : admin
     pass ARGOCD_SERVER 내용
 
@@ -23,6 +24,7 @@
 #### 클러스터 추가
     kubectl config get-contexts -o name #확인
     argocd cluster add arn:aws:eks:ap-northeast-2:.../main-eks-new --grpc-web --server argocd.co.kr
+    # argocd cluster add arn:aws:eks:ap-northeast-2:.../main-eks-new --grpc-web --server k8s-argocd-argocdin-123-123.ap-northeast-2.elb.amazonaws.com
 
     #네임스페이스 변경시 인증을위한 작업을 해주어야함
     kubectl create clusterrolebinding default-admin --clusterrole=admin --serviceaccount=prd-cicd:default
