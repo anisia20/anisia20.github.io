@@ -13,6 +13,20 @@
 * pod 복원 (replicas = 2)
     - kubectl scale --replicas=2 deployment/deploy
 - hpa
+    * kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml # 메트릭 설치
+    * # cpu 설정 필수로 필요
+    ```yaml
+    containers:
+        - name: test
+          image: test
+          resources:
+            limits:
+              cpu: "1"
+            requests:
+              cpu: "0.5"
+          ports:
+            - containerPort: 3000
+    ```
     * kubectl autoscale deployment deployment --cpu-percent=60 --min=1 --max=2 
     * kubectl delete horizontalpodautoscaler deployment
     * kubectl get hpa 
